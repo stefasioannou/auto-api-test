@@ -72,6 +72,7 @@ public class Case1Test extends BaseTest {
         System.out.println("________________________________________________________");
         Assert.assertNotNull(leastPlanetsFilm, "No films found for Darth Vader.");
         System.out.printf("%s features the fewest planets of any film, with only %d planets shown.\n", leastPlanetsFilm.getTitle(), leastPlanetsFilm.getPlanets().size());
+        System.out.println("________________________________________________________");
 
         Assert.assertEquals(minPlanets, leastPlanetsFilm.getPlanets().size());
 
